@@ -68,7 +68,8 @@ async function onFormSubmit(event) {
 }
 
 async function onLoadMoreBtnClick() {
-  refs.loadMoreBtn.classList.add('is-hidden');
+  hideLoadMoreButton();
+
   showLoader();
 
   try {
